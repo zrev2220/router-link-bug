@@ -15,6 +15,15 @@
 
   <div id="container">
     <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer"
+        href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <div id="stuff">
+      <a routerLink="child-a">Child A</a><br>
+      <a routerLink="child-b">Child B</a><br>
+      <a routerLink="404">404</a>
+    </div>
+    <div id="thing">
+      <router-outlet></router-outlet>
+    </div>
   </div>
 </ion-content>
