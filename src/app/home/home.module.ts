@@ -5,8 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
-import { ChildaComponent } from './childa/childa.component';
-import { ChildbComponent } from './childb/childb.component';
+import { ChildAComponent } from './childa/childa.component';
+import { ChildBComponent } from './childb/childb.component';
 
 
 @NgModule({
@@ -18,8 +18,8 @@ import { ChildbComponent } from './childb/childb.component';
   ],
   declarations: [
     HomePage,
-    ChildaComponent,
-    ChildbComponent,
+    ChildAComponent,
+    ChildBComponent,
   ]
 })
 export class HomePageModule {}

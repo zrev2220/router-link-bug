@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { ChildbComponent } from './childb.component';
+import { ChildBComponent } from './childb.component';
 
-describe('ChildbComponent', () => {
-  let component: ChildbComponent;
-  let fixture: ComponentFixture<ChildbComponent>;
+describe('ChildBComponent', () => {
+  let component: ChildBComponent;
+  let fixture: ComponentFixture<ChildBComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ChildbComponent ],
+      declarations: [ ChildBComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(ChildbComponent);
+    fixture = TestBed.createComponent(ChildBComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

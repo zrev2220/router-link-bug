@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomePage } from './home.page';
-import { ChildaComponent } from './childa/childa.component';
-import { ChildbComponent } from './childb/childb.component';
+import { ChildAComponent } from './childa/childa.component';
+import { ChildBComponent } from './childb/childb.component';
 
 const routes: Routes = [
   {
@@ -11,11 +11,11 @@ const routes: Routes = [
     children: [
       {
         path: 'child-a',
-        component: ChildaComponent,
+        component: ChildAComponent,
       },
       {
         path: 'child-b',
-        component: ChildbComponent,
+        component: ChildBComponent,
       },
     ]
   }
